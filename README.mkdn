@@ -9,5 +9,5 @@ Then to sync up:
 To build:
 
     . build/envsetup.sh
-    lunch cm_benefit-userdebug
+    lunch cm_peach-userdebug
     mka bacon
