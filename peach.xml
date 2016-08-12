@@ -9,4 +9,6 @@
 <project name="BenefitA3/proprietary_vendor_ark" path="vendor/ark" remote="github" revision="cm-13.0" />
 <!-- Device tree -->
 <project name="BenefitA3/android_device_ark_peach" path="device/ark/peach" remote="github" revision="cm-13.0" />
+<!-- OpenDeltaAPP -->
+<project name="omnirom/android_packages_apps_OpenDelta" path="packages/apps/OpenDelta" remote="github" revision="android-6.0" />
 </manifest>
