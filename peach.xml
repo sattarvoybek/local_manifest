@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  
+
+<!-- Remove CMUpdaterAPP -->
+<remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+
 <!-- Common MSM8916 device tree -->
 <project name="CyanogenMod/android_device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="github" revision="cm-13.0" />
 <!-- Qualcomm Device Addons -->
