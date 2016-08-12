@@ -4,6 +4,8 @@
 <!-- Remove CMUpdaterAPP -->
 <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
 
+<!-- manifets auto-update -->
+<project name="BenefitA3/local_manifest" path="local_manifest" remote="github" revision="cm-13.0" />
 <!-- Common MSM8916 device tree -->
 <project name="CyanogenMod/android_device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="github" revision="cm-13.0" />
 <!-- Qualcomm Device Addons -->
