@@ -15,5 +15,5 @@
 <!-- Device tree -->
 <project name="BenefitA3/android_device_ark_peach" path="device/ark/peach" remote="github" revision="cm-13.0" />
 <!-- OpenDeltaAPP -->
-<project name="omnirom/android_packages_apps_OpenDelta" path="packages/apps/OpenDelta" remote="github" revision="android-6.0" />
+<project name="omnirom/android_packages_apps_OpenDelta" path="packages/apps/OpenDelta" remote="github" revision="android-5.1" />
 </manifest>
