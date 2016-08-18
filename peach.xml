@@ -3,6 +3,8 @@
 
 <!-- Remove Camera2 -->
 <remove-project name="CyanogenMod/android_packages_apps_Camera2" />
+<!-- Remove CMUpdater -->
+<remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
 
 <!-- manifets auto-update -->
 <project name="BenefitA3/local_manifest" path="local_manifest" remote="github" revision="cm-13.0" />
@@ -14,4 +16,6 @@
 <project name="BenefitA3/proprietary_vendor_ark" path="vendor/ark" remote="github" revision="cm-13.0" />
 <!-- Device tree -->
 <project name="BenefitA3/android_device_ark_peach" path="device/ark/peach" remote="github" revision="cm-13.0" />
+<!-- CMUpdater -->
+<project name="BenefitA3/android_packages_apps_CMUpdater" path="packages/apps/CMUpdater" remote="github" revision="cm-13.0" />
 </manifest>
