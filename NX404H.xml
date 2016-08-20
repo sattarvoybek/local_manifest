@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+<!-- Remove CMUpdater -->
+<remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />  
 <!-- manifets auto-update -->
 <project name="sattarvoybek/local_manifest" path="local_manifest" remote="github" revision="cm-12.1" />
 <!-- Qualcomm Device Addons -->
