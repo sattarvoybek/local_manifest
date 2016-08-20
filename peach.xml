@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-<!-- Remove Camera2 -->
-<remove-project name="CyanogenMod/android_packages_apps_Camera2" />
-<!-- Remove CMUpdater -->
-<remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
-
 <!-- manifets auto-update -->
-<project name="BenefitA3/local_manifest" path="local_manifest" remote="github" revision="cm-13.0" />
-<!-- Common MSM8916 device tree -->
-<project name="BenefitA3/android_device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="github" revision="cm-13.0" />
+<project name="sattarvoybek/local_manifest" path="local_manifest" remote="github" revision="cm-12.1" />
 <!-- Qualcomm Device Addons -->
-<project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-13.0" />
-<!-- Vendor Blobs -->
-<project name="BenefitA3/proprietary_vendor_ark" path="vendor/ark" remote="github" revision="cm-13.0" />
-<!-- Device tree -->
-<project name="BenefitA3/android_device_ark_peach" path="device/ark/peach" remote="github" revision="cm-13.0" />
+<project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />
 <!-- CMUpdater -->
-<project name="BenefitA3/android_packages_apps_CMUpdater" path="packages/apps/CMUpdater" remote="github" revision="cm-13.0" />
+<project name="sattarvoybek/android_packages_apps_CMUpdater" path="packages/apps/CMUpdater" remote="github" revision="cm-12.1-NX404H" />
 </manifest>
