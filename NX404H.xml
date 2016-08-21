@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!-- Remove CMUpdater -->
-<remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />  
 <!-- manifets auto-update -->
-<project name="sattarvoybek/local_manifest" path="local_manifest" remote="github" revision="cm-12.1" />
+<project name="sattarvoybek/local_manifest" path="local_manifest" remote="github" revision="cm-13.0" />
 <!-- Qualcomm Device Addons -->
-<project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />
-<!-- CMUpdater -->
-<project name="sattarvoybek/android_packages_apps_CMUpdater" path="packages/apps/CMUpdater" remote="github" revision="cm-12.1-NX404H" />
-</manifest>
+<project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-13.0" />
+<!-- Vendor Blobs -->
+<project name="sattarvoybek/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-13.0" />
+<!-- Device tree -->
+<project name="sattarvoybek/android_device_xiaomi_armani-4" path="device/xiaomi/armani" remote="github" revision="cm-13.0" />
